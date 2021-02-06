@@ -5,7 +5,7 @@
     "build": "rm -rf ./dist/* && npm run build-ts && npm run lint && npm run templates",
     "build-ts": "tsc",
     "lint": "eslint . --ext .ts",
-    "start": "node -r module-alias/register ./dist/src/ --env=development",
+    "start": "npm run lint && nodemon",
     "dev": "npm run lint && nodemon",
     "test": "nodemon --config ./spec/nodemon.json",
     "templates": "cp -R ./src/templates ./dist/src/"
