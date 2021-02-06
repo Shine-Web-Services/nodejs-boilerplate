@@ -1,0 +1,50 @@
+{
+	"errors": {
+		"400": "errors.400",
+		"internalServerError": "Something went wrong, please try again.",
+		"badRequest": "Bad Request.",
+		"somethingBadHappened": "Something bad happened",
+		"userNotFound": "User not found",
+		"userRoleNotFound": "User role not found",
+		"tokenExpired": "Token expired",
+		"duplicateUsername": "Username already taken.",
+		"duplicateEmail": "Email already taken",
+		"invalidFacebookToken": "Invalid Facebook token",
+		"invalidLinkedInToken": "Invalid LinkedIn token",
+		"forgotLinkExpired": "errors.forgotLinkExpired",
+		"credentialsMisMatch": "errors.credentialsMisMatch"
+	},
+	"success": {
+		"ok": "OK",
+		"welcome": "Welcome",
+		"registerSuccessfully": "New user register successfully, please ",
+		"loginSuccess": "Login successfully",
+		"tokenVerified": "Token verified successfully",
+		"signUpEmailVerified": "success.signUpEmailVerified",
+		"passwordResetSuccess": "Password reset successfully",
+		"confirmRegistrationEmail": "success.confirmRegistrationEmail"
+	},
+	"validations": {
+		"invalidValue": "Invalid value.",
+		"invalidEmail": "Please enter valid email address.",
+		"minLength": "%s length must be atleast %s character long",
+		"required": "%s field is required.",
+		"duplicateEmail": "Email address already associated with other user.",
+		"passwordNotMatch": "Password should have minimum 8 characters, at least 1 uppercase letter, and at least 1 digit.",
+		"usernameNotMatch": "Username should have only underscore and alpha numerical character",
+		"duplicateUsername": "Username already taken."
+	},
+	"emails": {
+		"forgotEmailSubject": "TEST-TASK password reset",
+		"welcomeEmailSubject": "Welcome to TEST-TASK"
+	},
+	"confirmRegistrationEmail": "Successfully registered, verification link has been sent to your registered email.",
+	"confirmLoginEmail": "You have not verified your email. We have sent you verification email with the link to activate your account",
+	"signUpLinkExpired": "Link has expired",
+	"forgotLinkExpired": "Link has expired",
+	"signUpEmailAlreadyVerified": "Email already verified",
+	"signUpEmailVerified": "Email has been verified.",
+	"verifyLinkSent": "Reset password link has been sent on your registered email. Link valid for %s hour.",
+	"userNotFound": "userNotFound",
+	"passwordResetSuccess": "passwordResetSuccess"
+}
