@@ -4,7 +4,7 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "start": "npm run lint && nodemon",
-    "dev": "npm run lint && nodemon",
+    "dev": "npm run lint && nodemon"
   },
   "nodemonConfig": {
     "watch": [
