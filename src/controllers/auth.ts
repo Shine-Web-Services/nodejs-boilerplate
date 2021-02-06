@@ -88,7 +88,6 @@ class Auth {
         try {
             const {email, password} = req.body
             const token = randomize('A1', 32)
-            let activationLink = '' 
             const userData: IUser | null = await this.getUser(email)
             // user  not found
             // TODO implement invalid credentials
